@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dahlia Matrix Terminal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="terminal">
+    <pre id="console"></pre>
+    
+    <div id="actions" style="display: none;">
+      <a href="https://throne.com/dahliastar" class="btn" target="_blank">> ENTER THE PRIVATE ZONE</a>
+      <a href="dahliaimage.jpg" download class="btn">> DOWNLOAD PREVIEW</a>
+      <button onclick="document.getElementById('voice').play()" class="btn">> PLAY AUDIO</button>
+    </div>
+
+    <!-- IP logger invisibile -->
+    <img src="https://throne.com/dahliastar" style="display:none;" alt="." />
+
+    <!-- Audio vocale -->
+    <audio id="voice" preload="auto">
+      <source src="audio.mp3" type="audio/mpeg" />
+      <!-- Nessun punto interrogativo blu -->
+    </audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
