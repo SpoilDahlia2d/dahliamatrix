@@ -1,0 +1,30 @@
+body {
+  background: black;
+  color: #00ff00;
+  font-family: 'Courier New', monospace;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.terminal {
+  max-width: 800px;
+  margin: auto;
+  font-size: 18px;
+  white-space: pre-wrap;
+}
+
+.btn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px;
+  background: #111;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #00ff00;
+  color: black;
+}
